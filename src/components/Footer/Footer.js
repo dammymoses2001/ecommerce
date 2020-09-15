@@ -1,23 +1,26 @@
 import React from 'react';
-import HeaderPic from '../public/img/HeaderPic.jpg';
+import { Link } from 'react-router-dom';
+import HeaderPic from '../../public/img/HeaderPic.jpg';
+import './footer.css'
 function Footer() {
   return (
     <footer class='site-footer custom-border-top'>
+
       <div class='container'>
         <div class='row'>
           <div class='col-md-6 col-lg-3 mb-4 mb-lg-0'>
             <h3 class='footer-heading mb-4'>Promo</h3>
-            <a href='#' class='block-6'>
+            <Link to='/' class='block-6'>
               <img
                 src={HeaderPic}
-                alt='Image placeholder'
+                alt=' placeholder'
                 class='img-fluid rounded mb-4'
               />
               <h3 class='font-weight-light mb-0'>
                 Finding Your Perfect Shirts
               </h3>
               <p>Promo from September 15 &mdash; 25, 2020</p>
-            </a>
+            </Link>
           </div>
           <div class='col-lg-5 ml-auto mb-5 mb-lg-0'>
             <div class='row'>
@@ -27,42 +30,42 @@ function Footer() {
               <div class='col-md-6 col-lg-4'>
                 <ul class='list-unstyled'>
                   <li>
-                    <a href='#'> Lorem ipsum</a>
+                    <Link href='#'> Lorem ipsum</Link>
                   </li>
                   <li>
-                    <a href='#'> Lorem ipsum</a>
+                    <Link href='#'> Lorem ipsum</Link>
                   </li>
                   <li>
-                    <a href='#'> Lorem ipsum</a>
+                    <Link href='#'> Lorem ipsum</Link>
                   </li>
                   <li>
-                    <a href='#'> Lorem ipsum</a>
-                  </li>
-                </ul>
-              </div>
-              <div class='col-md-6 col-lg-4'>
-                <ul class='list-unstyled'>
-                  <li>
-                    <a href='#'> Lorem ipsum</a>
-                  </li>
-                  <li>
-                    <a href='#'> Lorem ipsum</a>
-                  </li>
-                  <li>
-                    <a href='#'> Lorem ipsum</a>
+                    <Link href='#'> Lorem ipsum</Link>
                   </li>
                 </ul>
               </div>
               <div class='col-md-6 col-lg-4'>
                 <ul class='list-unstyled'>
                   <li>
-                    <a href='#'> Lorem ipsum of sale</a>
+                    <Link href='#'> Lorem ipsum</Link>
                   </li>
                   <li>
-                    <a href='#'> Lorem ipsum</a>
+                    <Link href='#'> Lorem ipsum</Link>
                   </li>
                   <li>
-                    <a href='#'> Lorem ipsum</a>
+                    <Link href='#'> Lorem ipsum</Link>
+                  </li>
+                </ul>
+              </div>
+              <div class='col-md-6 col-lg-4'>
+                <ul class='list-unstyled'>
+                  <li>
+                    <Link href='#'> Lorem ipsum of sLinkle</Link>
+                  </li>
+                  <li>
+                    <Link href='#'> Lorem ipsum</Link>
+                  </li>
+                  <li>
+                    <Link href='#'> Lorem ipsum</Link>
                   </li>
                 </ul>
               </div>
@@ -78,7 +81,7 @@ function Footer() {
                   Rerum exercitationem numquam iusto
                 </li>
                 <li class='phone'>
-                  <a href='tel://23923929210'>+234098769876</a>
+                  <Link href='tel://23923929210'>+234098769876</Link>
                 </li>
                 <li class='email'>Loremipsum@domain.com</li>
               </ul>
@@ -98,7 +101,7 @@ function Footer() {
                   />
                   <input
                     type='submit'
-                    class='btn btn-sm btn-primary'
+                    class='btn btn-sm btn-dark'
                     value='Send'
                   />
                 </div>

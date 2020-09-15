@@ -1,6 +1,8 @@
 import React from 'react';
-import model_3 from '../public/img/model_3.png';
-function Header() {
+import { Link } from 'react-router-dom';
+//import model_3 from '../public/img/model_3.png';
+import './header.css'
+function Header({ image }) {
   return (
     <div>
       <div class='site-blocks-cover' data-aos='fade'>
@@ -11,14 +13,14 @@ function Header() {
                 <h2 class='sub-title'>#New Summer Collection 2019</h2>
                 <h1>Arrivals Sales</h1>
                 <p>
-                  <a href='#' class='btn btn-black rounded-0'>
+                  <Link href='#' class='btn btn-black rounded-0'>
                     Shop Now
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
             <div class='col-md-6 order-1 align-self-end'>
-              <img src={model_3} alt='Image' class='img-fluid' />
+              <img src={image} alt='' class='img-fluid' />
             </div>
           </div>
         </div>

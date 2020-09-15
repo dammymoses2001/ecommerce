@@ -1,24 +1,14 @@
 import React from 'react';
-import Footer from '../components/Footer';
+import Footer from '../components/Footer/Footer';
+import Header from '../components/Header/Header'
+import Breadcrumbs from '../components/BreadCrumbs/Breadcrumbs'
+import model_5 from '../public/img/model_5.png';
 function Contact() {
   return (
     <div class='site-wrap'>
-      <div class='site-blocks-cover inner-page' data-aos='fade'>
-        <div class='container'>
-          <div class='row'></div>
-        </div>
-      </div>
+      <Header image={model_5} />
+      <Breadcrumbs first='Home' second='Contact' />
 
-      <div class='custom-border-bottom py-3'>
-        <div class='container'>
-          <div class='row'>
-            <div class='col-md-12 mb-0'>
-              <a href='index.html'>Home</a> <span class='mx-2 mb-0'>/</span>{' '}
-              <strong class='text-black'>Contact</strong>
-            </div>
-          </div>
-        </div>
-      </div>
 
       <div class='site-section'>
         <div class='container'>
@@ -70,7 +60,7 @@ function Contact() {
                   <div class='form-group row'>
                     <div class='col-md-12'>
                       <label for='c_subject' class='text-black'>
-                        Subject{' '}
+                        Subject
                       </label>
                       <input
                         type='text'
@@ -84,7 +74,7 @@ function Contact() {
                   <div class='form-group row'>
                     <div class='col-md-12'>
                       <label for='c_message' class='text-black'>
-                        Message{' '}
+                        Message
                       </label>
                       <textarea
                         name='c_message'
@@ -114,7 +104,7 @@ function Contact() {
                 </span>
                 <p class='mb-0'>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Iusto voluptatum ad doloribus.{' '}
+                  Iusto voluptatum ad doloribus.
                 </p>
               </div>
               <div class='p-4 border mb-3'>
@@ -123,7 +113,7 @@ function Contact() {
                 </span>
                 <p class='mb-0'>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Iusto voluptatum ad doloribus.{' '}
+                  Iusto voluptatum ad doloribus.
                 </p>
               </div>
             </div>
