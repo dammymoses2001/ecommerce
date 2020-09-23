@@ -1,81 +1,50 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { FaUserCircle, FaAlignLeft, FaTimes } from 'react-icons/fa';
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import { FaShoppingCart } from 'react-icons/fa';
 import './navbar.css';
-function Navbar() {
-  const [toggle, setToggle] = useState(false);
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
-  const toggleSideBar = () => {
-    setToggle(!toggle);
-  };
+function NavbarPage() {
   return (
-    <header>
-      <div className={!toggle ? 'hideSideBar ' : 'mobile-view'}>
-        <div>
-          <Link to='/' className='Logo'>
-            Ecommerence
-          </Link>
-          <span onClick={toggleSideBar}>
-            <FaTimes />
-          </span>
-        </div>
+    <Navbar collapseOnSelect expand='lg' variant='light'>
+      <NavLink to='/' class='navbar-brand'>
+        Lorem
+      </NavLink>
+      {/* <Navbar.Brand href='#home'></Navbar.Brand> */}
+      <Navbar.Toggle aria-controls='responsive-navbar-nav' />
+      <Navbar.Collapse id='responsive-navbar-nav'>
+        <Nav className='mr-auto'></Nav>
+        <Nav className='mr-auto'>
+          <NavLink to='/product' class='nav-link'>
+            Shop
+          </NavLink>
+          <NavLink to='/contact' class='nav-link'>
+            Contact us
+          </NavLink>
 
-        <ul className='mobile'>
-          <li className='home'>
-            <Link to='/'>Home</Link>
-          </li>
-
-          <>
-            <li>
-              <Link to='/product'>Product</Link>
-            </li>
-            {/* <li>
-                            <Link to='/'>
-                                <FaUserCircle />
-
-                            </Link>
-                        </li> */}
-            <li>
-              <Link to='/'>Contact us</Link>
-            </li>
-          </>
-
-          <li>Sign</li>
-        </ul>
-      </div>
-
-      <div className='site-view'>
-        <Link to='/' className='Logo'>
-          AllMarket
-        </Link>
-        <span>
-          <FaAlignLeft onClick={toggleSideBar} />
-        </span>
-        <ul className='hide'>
-          <li className='home'>
-            <Link to='/'>Home</Link>
-          </li>
-
-          <>
-            <li>
-              <Link to='/product'>Product</Link>
-            </li>
-            {/* <li>
-                            <Link to='/'>
-                                <FaUserCircle />
-
-                            </Link>
-                        </li> */}
-            <li>
-              <Link to='/'>Contact us</Link>
-            </li>
-          </>
-
-          <li>Sign</li>
-        </ul>
-      </div>
-    </header>
+          <NavDropdown title='Dropdown' id='collasible-nav-dropdown'>
+            <NavDropdown.Item href='#action/3.1'>Action</NavDropdown.Item>
+            <NavDropdown.Item href='#action/3.2'>
+              Another action
+            </NavDropdown.Item>
+            <NavDropdown.Item href='#action/3.3'>Something</NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item href='#action/3.4'>
+              Separated link
+            </NavDropdown.Item>
+          </NavDropdown>
+        </Nav>
+        <Nav>
+          <Nav.Link href='#deets'>
+            <FaShoppingCart />
+          </Nav.Link>
+          <Nav.Link eventKey={2} href='#memes'>
+            Dank memes
+          </Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 }
 
-export default Navbar;
+export default NavbarPage;
