@@ -1,4 +1,6 @@
-.custom-border-bottom {
-    border-bottom: 1px solid #f9f9f9;
-  }
-  
+.breadcrumb {
+  background-color: transparent !important;
+}
+.breadcrumb-item :hover {
+  color: #2fce98;
+}

@@ -1,67 +1,67 @@
 * {
-    margin: 0;
-    padding: 0;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
-    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    background: #FFFFFF;
-    color: #a5a5a5;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background: #ffffff;
+  color: #a5a5a5;
 }
 
 div {
-    display: block;
-    position: relative;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 ul {
-    list-style: none;
-    margin-bottom: 0px;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  margin-bottom: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: 300;
-    color: #969696;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
-    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #969696;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
 }
 
 p a {
-    display: inline;
-    position: relative;
-    color: inherit;
-    border-bottom: solid 1px #ffa07f;
-    -webkit-transition: all 200ms ease;
-    -moz-transition: all 200ms ease;
-    -ms-transition: all 200ms ease;
-    -o-transition: all 200ms ease;
-    transition: all 200ms ease;
+  display: inline;
+  position: relative;
+  color: inherit;
+  border-bottom: solid 1px #ffa07f;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
 }
 
 p:last-of-type {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 a {
-    -webkit-transition: all 200ms ease;
-    -moz-transition: all 200ms ease;
-    -ms-transition: all 200ms ease;
-    -o-transition: all 200ms ease;
-    transition: all 200ms ease;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
 }
 
 a,
@@ -69,54 +69,53 @@ a:hover,
 a:visited,
 a:active,
 a:link {
-    text-decoration: none !important;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
-    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
-   
+  text-decoration: none !important;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
 }
 
-
 p a:active {
-    position: relative;
-    color: #FF6347;
+  position: relative;
+  color: #ff6347;
 }
 
 p a:hover {
-    color: #FFFFFF;
-    background: #ffa07f;
+  color: #ffffff;
+  background: #ffa07f;
 }
 
 p a:hover::after {
-    opacity: 0.2;
+  opacity: 0.2;
 }
 
 ::selection {
-    background: rgba(188, 155, 155, 0.6);
+  background: rgba(188, 155, 155, 0.6);
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
-p::selection {}
+p::selection {
+}
 
 h1 {
-    font-size: 48px;
+  font-size: 48px;
 }
 
 h2 {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 h3 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 h4 {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 h5 {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 h1,
@@ -125,11 +124,11 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Roboto', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
-    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
-    line-height: 1.2;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  line-height: 1.2;
 }
 
 h1::selection,
@@ -137,151 +136,140 @@ h2::selection,
 h3::selection,
 h4::selection,
 h5::selection,
-h6::selection {}
-
-img {
-    max-width: 100%;
+h6::selection {
 }
 
+img {
+  max-width: 100%;
+}
 
-
-
-.single-product_view {}
-
+.single-product_view {
+}
 
 .single-products {
-    background: #FFFFFF;
-    padding-bottom: 82px;
+  background: #ffffff;
+  padding-bottom: 20px;
 }
 
 .single-product {
-    margin-bottom: 30px;
-    overflow: hidden;
-    border-radius: 3px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  border-radius: 3px;
 }
 
 .single-product.home_item_large {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .single-product_content {
-    border: solid 2px #dbdbdb;
+  border: solid 2px #dbdbdb;
 }
 
-
-.single-product_buttons>div>div:hover {
-    background: #2fce98;
+.single-product_buttons > div > div:hover {
+  background: #2fce98;
 }
 
 .single-product_info {
-    height: 101px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 18px;
-    padding-bottom: 10px;
+  height: 101px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 18px;
+  padding-bottom: 10px;
 }
 
 .single-product_name {
-    max-width: 175px;
+  max-width: 175px;
 }
 
 .single-product_name a {
-    font-size: 20px;
-    line-height: 1.2;
-    color: #4a4a4a;
-    font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #4a4a4a;
+  font-weight: 500;
 }
 
 .single-product_name a:hover,
 .single-product_category a:hover {
-    color: #2fce98;
+  color: #2fce98;
 }
 
-
 .single-product_category {
-    margin-top: 2px;
+  margin-top: 2px;
 }
 
 .single-product_category,
 .single-product_category a {
-    font-size: 14px;
-    color: #969696;
-    font-style: italic;
-    font-weight: 400;
+  font-size: 14px;
+  color: #969696;
+  font-style: italic;
+  font-weight: 400;
 }
-
-
-
 
 .single-product_price {
-    font-size: 30px;
-    color: #4a4a4a;
-    font-weight: 500;
-    margin-top: 19px;
-    line-height: 0.75;
+  font-size: 30px;
+  color: #4a4a4a;
+  font-weight: 500;
+  margin-top: 19px;
+  line-height: 0.75;
 }
 
-
 .single-product_price span {
-    font-size: 16px;
-    margin-left: 1px;
-    vertical-align: top;
+  font-size: 16px;
+  margin-left: 1px;
+  vertical-align: top;
 }
 
 .single-product_buttons {
-    width: 100%;
-    height: 57px;
+  width: 100%;
+  height: 57px;
 }
 
-
-
-.single-product_buttons>div {
-    width: 100%;
-    height: 100%;
+.single-product_buttons > div {
+  width: 100%;
+  height: 100%;
 }
 
-.single-product_buttons>div>div {
-    width: 50%;
-    height: 100%;
-    border-top: solid 1px #ededed;
-    background: rgba(255, 255, 255, 0);
-    -webkit-transition: all 200ms ease;
-    -moz-transition: all 200ms ease;
-    -ms-transition: all 200ms ease;
-    -o-transition: all 200ms ease;
-    transition: all 200ms ease;
+.single-product_buttons > div > div {
+  width: 50%;
+  height: 100%;
+  border-top: solid 1px #ededed;
+  background: rgba(255, 255, 255, 0);
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
 }
 
-.single-product_buttons>div>div svg {
-    max-width: 100%;
-    height: auto;
+.single-product_buttons > div > div svg {
+  max-width: 100%;
+  height: auto;
 }
-
 
 .single-product_button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
-.single-product_button>div>div {
-    width: 36px;
-    height: 36px;
-    margin-top: 4px;
+.single-product_button > div > div {
+  width: 36px;
+  height: 36px;
+  margin-top: 4px;
 }
 
-.single-product_button>div>div img {
-    max-width: 100% !important;
+.single-product_button > div > div img {
+  max-width: 100% !important;
 }
 
-.single-product_button>div>div>div {
-    position: absolute;
-    top: -3px;
-    right: -4px;
-    width: 18px;
-    height: 18px;
-    background: #2fce98;
-    color: #FFFFFF;
-    text-align: center;
-    line-height: 18px;
-    font-size: 14px;
-    border-radius: 50%;
+.single-product_button > div > div > div {
+  position: absolute;
+  top: -3px;
+  right: -4px;
+  width: 18px;
+  height: 18px;
+  background: #2fce98;
+  color: #ffffff;
+  text-align: center;
+  line-height: 18px;
+  font-size: 14px;
+  border-radius: 50%;
 }

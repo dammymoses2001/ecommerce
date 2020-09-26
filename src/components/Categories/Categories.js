@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import model_3 from '../public/img/model_3.png';
+import model_3 from '../../public/img/model_3.png';
 function Categories() {
   return (
     <div>
