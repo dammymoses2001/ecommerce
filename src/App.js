@@ -12,7 +12,6 @@ function App() {
       <Route exact path='/' component={Index} />
       <Route exact path='/contact' component={Contact} />
       <Route exact path='/product' component={Product} />
-
       <Route exact path='/product/:product' component={SinfgleProduct} />
     </div>
   );

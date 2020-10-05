@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 import './breadcrumbs.css';
 function Breadcrumbs({ item1, item2, item3, currentItem, active }) {
   return (
-    <div class='custom-border-bottom py-3'>
-      <div class='container'>
-        <div class='row'>
+    <div className='custom-border-bottom py-3'>
+      <div className='container'>
+        <div className='row'>
           <nav aria-label='breadcrumb'>
-            <ol class='breadcrumb'>
+            <ol className='breadcrumb'>
               {item1 ? (
                 <li
-                  class={`breadcrumb-item ${
+                  className={`breadcrumb-item ${
                     currentItem === item1 ? active : null
                   }`}
                 >
@@ -19,7 +19,7 @@ function Breadcrumbs({ item1, item2, item3, currentItem, active }) {
               ) : null}
               {item2 ? (
                 <li
-                  class={`breadcrumb-item ${
+                  className={`breadcrumb-item ${
                     currentItem === item2 ? active : null
                   }`}
                 >
@@ -28,7 +28,7 @@ function Breadcrumbs({ item1, item2, item3, currentItem, active }) {
               ) : null}
               {item3 ? (
                 <li
-                  class={`breadcrumb-item ${
+                  className={`breadcrumb-item ${
                     currentItem === item3 ? active : null
                   }`}
                   aria-current='page'

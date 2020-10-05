@@ -7,7 +7,7 @@ import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 function NavbarPage() {
   return (
     <Navbar collapseOnSelect expand='lg' variant='light'>
-      <NavLink to='/' class='navbar-brand'>
+      <NavLink to='/' className='navbar-brand'>
         Lorem
       </NavLink>
       {/* <Navbar.Brand href='#home'></Navbar.Brand> */}
@@ -15,11 +15,14 @@ function NavbarPage() {
       <Navbar.Collapse id='responsive-navbar-nav'>
         <Nav className='mr-auto'></Nav>
         <Nav className='mr-auto'>
-          <NavLink to='/product' class='nav-link'>
+          <NavLink to='/product' className='nav-link'>
             Shop
           </NavLink>
-          <NavLink to='/contact' class='nav-link'>
+          <NavLink to='/contact' className='nav-link'>
             Contact us
+          </NavLink>
+          <NavLink to='/product/product' className='nav-link'>
+            Single Product
           </NavLink>
 
           <NavDropdown title='Dropdown' id='collasible-nav-dropdown'>
