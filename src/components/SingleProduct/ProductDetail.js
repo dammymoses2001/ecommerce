@@ -30,7 +30,7 @@ function ProductDetail() {
                 <div className='d-flex othersImage-container'>
                   {images.map((img, index) => (
                     <div
-                      className='col img-fluid'
+                      className='col '
                       key={index}
                       onClick={() => setImagesList(img)}
                     >

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './breadcrumbs.css';
 function Breadcrumbs({ item1, item2, item3, currentItem, active }) {
   return (
-    <div className='custom-border-bottom py-3'>
+    <div className='custom-border-bottom py-1'>
       <div className='container'>
         <div className='row'>
           <nav aria-label='breadcrumb'>
@@ -39,6 +39,7 @@ function Breadcrumbs({ item1, item2, item3, currentItem, active }) {
             </ol>
           </nav>
         </div>
+        {/* <hr /> */}
       </div>
     </div>
   );
