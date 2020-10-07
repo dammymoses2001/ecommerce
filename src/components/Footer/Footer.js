@@ -1,107 +1,106 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import HeaderPic from '../../public/img/HeaderPic.jpg';
-import './footer.css'
+import './footer.css';
 function Footer() {
   return (
-    <footer class='site-footer custom-border-top'>
-
-      <div class='container'>
-        <div class='row'>
-          <div class='col-md-6 col-lg-3 mb-4 mb-lg-0'>
-            <h3 class='footer-heading mb-4'>Promo</h3>
-            <Link to='/' class='block-6'>
+    <footer className='site-footer custom-border-top'>
+      <div className='container'>
+        <div className='row'>
+          <div className='col-md-6 col-lg-3 mb-4 mb-lg-0'>
+            <h3 className='footer-heading mb-4'>Promo</h3>
+            <Link to='/' className='block-6'>
               <img
                 src={HeaderPic}
                 alt=' placeholder'
-                class='img-fluid rounded mb-4'
+                className='img-fluid rounded mb-4'
               />
-              <h3 class='font-weight-light mb-0'>
+              <h3 className='font-weight-light mb-0'>
                 Finding Your Perfect Shirts
               </h3>
               <p>Promo from September 15 &mdash; 25, 2020</p>
             </Link>
           </div>
-          <div class='col-lg-5 ml-auto mb-5 mb-lg-0'>
-            <div class='row'>
-              <div class='col-md-12'>
-                <h3 class='footer-heading mb-4'>Quick Links</h3>
+          <div className='col-lg-5 ml-auto mb-5 mb-lg-0'>
+            <div className='row'>
+              <div className='col-md-12'>
+                <h3 className='footer-heading mb-4'>Quick Links</h3>
               </div>
-              <div class='col-md-6 col-lg-4'>
-                <ul class='list-unstyled'>
+              <div className='col-md-6 col-lg-4'>
+                <ul className='list-unstyled'>
                   <li>
-                    <Link href='#'> Lorem ipsum</Link>
+                    <Link to='#'> Lorem ipsum</Link>
                   </li>
                   <li>
-                    <Link href='#'> Lorem ipsum</Link>
+                    <Link to='#'> Lorem ipsum</Link>
                   </li>
                   <li>
-                    <Link href='#'> Lorem ipsum</Link>
+                    <Link to='#'> Lorem ipsum</Link>
                   </li>
                   <li>
-                    <Link href='#'> Lorem ipsum</Link>
+                    <Link to='#'> Lorem ipsum</Link>
                   </li>
                 </ul>
               </div>
-              <div class='col-md-6 col-lg-4'>
-                <ul class='list-unstyled'>
+              <div className='col-md-6 col-lg-4'>
+                <ul className='list-unstyled'>
                   <li>
-                    <Link href='#'> Lorem ipsum</Link>
+                    <Link to='#'> Lorem ipsum</Link>
                   </li>
                   <li>
-                    <Link href='#'> Lorem ipsum</Link>
+                    <Link to='#'> Lorem ipsum</Link>
                   </li>
                   <li>
-                    <Link href='#'> Lorem ipsum</Link>
+                    <Link to='#'> Lorem ipsum</Link>
                   </li>
                 </ul>
               </div>
-              <div class='col-md-6 col-lg-4'>
-                <ul class='list-unstyled'>
+              <div className='col-md-6 col-lg-4'>
+                <ul className='list-unstyled'>
                   <li>
-                    <Link href='#'> Lorem ipsum of sLinkle</Link>
+                    <Link to='#'> Lorem ipsum of sLinkle</Link>
                   </li>
                   <li>
-                    <Link href='#'> Lorem ipsum</Link>
+                    <Link to='#'> Lorem ipsum</Link>
                   </li>
                   <li>
-                    <Link href='#'> Lorem ipsum</Link>
+                    <Link to='#'> Lorem ipsum</Link>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
 
-          <div class='col-md-6 col-lg-3'>
-            <div class='block-5 mb-5'>
-              <h3 class='footer-heading mb-4'>Contact Info</h3>
-              <ul class='list-unstyled'>
-                <li class='address'>
+          <div className='col-md-6 col-lg-3'>
+            <div className='block-5 mb-5'>
+              <h3 className='footer-heading mb-4'>Contact Info</h3>
+              <ul className='list-unstyled'>
+                <li className='address'>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Rerum exercitationem numquam iusto
                 </li>
-                <li class='phone'>
-                  <Link href='tel://23923929210'>+234098769876</Link>
+                <li className='phone'>
+                  <Link to='tel://23923929210'>+234098769876</Link>
                 </li>
-                <li class='email'>Loremipsum@domain.com</li>
+                <li className='email'>Loremipsum@domain.com</li>
               </ul>
             </div>
 
-            <div class='block-7'>
+            <div className='block-7'>
               <form action='#' method='post'>
-                <label for='email_subscribe' class='footer-heading'>
+                <label htmlFor='email_subscribe' className='footer-heading'>
                   Subscribe
                 </label>
-                <div class='form-group'>
+                <div className='form-group'>
                   <input
                     type='text'
-                    class='form-control py-4'
+                    className='form-control py-4'
                     id='email_subscribe'
                     placeholder='Email'
                   />
                   <input
                     type='submit'
-                    class='btn btn-sm btn-dark'
+                    className='btn btn-sm btn-dark'
                     value='Send'
                   />
                 </div>
