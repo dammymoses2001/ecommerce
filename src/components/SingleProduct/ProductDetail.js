@@ -27,10 +27,10 @@ function ProductDetail() {
               </div>
               <hr />
               <div className='othersImages'>
-                <div className='d-flex othersImage-container'>
+                <div className='d-flex text-center othersImage-container'>
                   {images.map((img, index) => (
                     <div
-                      className='col '
+                      className='productImageList ml-2'
                       key={index}
                       onClick={() => setImagesList(img)}
                     >
