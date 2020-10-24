@@ -13,16 +13,16 @@ function filterbar() {
             <div className='products_bar_links'>
               <ul className='d-flex flex-row align-items-start justify-content-start'>
                 <li>
-                  <Link href='#'>All</Link>
+                  <Link to='/'>All</Link>
                 </li>
                 <li>
-                  <Link href='#'>Hot Products</Link>
+                  <Link to='/'>Hot Products</Link>
                 </li>
                 <li className='active'>
-                  <Link href='#'>New Products</Link>
+                  <Link to='/'>New Products</Link>
                 </li>
                 <li>
-                  <Link href='#'>Sale Products</Link>
+                  <Link to='/'>Sale Products</Link>
                 </li>
               </ul>
             </div>

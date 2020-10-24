@@ -40,7 +40,7 @@ function SocialPic() {
         </div>
         <div className='btn-absolute'>
           <p className='text-center'>
-            <Link href='#' className='btn btn-black rounded-0'>
+            <Link to='/' className='btn btn-black rounded-0'>
               @instagram/facebook account
             </Link>
           </p>

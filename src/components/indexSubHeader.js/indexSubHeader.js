@@ -18,7 +18,7 @@ function indexSubHeader() {
                     <h2 className='sub-title'>#New Summer Collection 2019</h2>
                     <h1>Arrivals Sales</h1>
                     <p>
-                      <Link to='#' className='btn btn-black rounded-0'>
+                      <Link to='/' className='btn btn-black rounded-0'>
                         Shop Now
                       </Link>
                     </p>
@@ -40,7 +40,7 @@ function indexSubHeader() {
                     <h2 className='sub-title'>#New Winter Collection 2019</h2>
                     <h1>Arrivals Sales</h1>
                     <p>
-                      <Link to='#' className='btn btn-black rounded-0'>
+                      <Link to='/' className='btn btn-black rounded-0'>
                         Shop Now
                       </Link>
                     </p>
@@ -62,7 +62,7 @@ function indexSubHeader() {
                     <h2 className='sub-title'>#New Shopping </h2>
                     <h1>Arrivals Sales</h1>
                     <p>
-                      <Link to='#' className='btn btn-black rounded-0'>
+                      <Link to='/' className='btn btn-black rounded-0'>
                         Shop Now
                       </Link>
                     </p>

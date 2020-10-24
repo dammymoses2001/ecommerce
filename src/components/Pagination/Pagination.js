@@ -8,16 +8,16 @@ function PaginationComp() {
         <div class='page_nav'>
           <ul class='d-flex flex-row align-items-start justify-content-center'>
             <li class='active'>
-              <Link to='#'>01</Link>
+              <Link to='/'>01</Link>
             </li>
             <li>
-              <Link to='#'>02</Link>
+              <Link to='/'>02</Link>
             </li>
             <li>
-              <Link to='#'>03</Link>
+              <Link to='/'>03</Link>
             </li>
             <li>
-              <Link to='#'>04</Link>
+              <Link to='/'>04</Link>
             </li>
           </ul>
         </div>

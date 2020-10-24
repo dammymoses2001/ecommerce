@@ -12,10 +12,10 @@ function Index() {
     <div>
       <NavBar />
       <IndexSubHeader />
-      <Categories />
+      <Categories /> 
       <Product />
       <SocialPic />
-      <Footer />
+       <Footer />
     </div>
   );
 }
