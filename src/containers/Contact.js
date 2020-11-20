@@ -1,14 +1,15 @@
 import React from 'react';
 import Footer from '../components/Footer/Footer';
-import Header from '../components/Header/Header'
-import Breadcrumbs from '../components/BreadCrumbs/Breadcrumbs'
+import NavBar from '../components/NavBar/Navbar';
+import Header from '../components/Header/Header';
+import Breadcrumbs from '../components/BreadCrumbs/Breadcrumbs';
 import model_5 from '../public/img/model_5.png';
 function Contact() {
   return (
-    <div class='site-wrap'>
+    <div>
+      <NavBar />
       <Header image={model_5} />
       <Breadcrumbs first='Home' second='Contact' />
-
 
       <div class='site-section'>
         <div class='container'>

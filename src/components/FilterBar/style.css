@@ -1,279 +1,286 @@
+@media only screen and (max-height: 920px) {
+}
 
-    @media only screen and (max-height: 920px) {}
-
-    /************
+/************
 1780px
 ************/
 
-    @media only screen and (max-width: 1780px) {}
+@media only screen and (max-width: 1780px) {
+}
 
-    /************
+/************
 1. 1600px
 ************/
 
-    @media only screen and (max-width: 1600px) {}
+@media only screen and (max-width: 1600px) {
+}
 
-    /************
+/************
 2. 1440px
 ************/
 
-    @media only screen and (max-width: 1440px) {}
+@media only screen and (max-width: 1440px) {
+}
 
-    /************
+/************
 3. 1380px
 ************/
 
-    @media only screen and (max-width: 1380px) {}
+@media only screen and (max-width: 1380px) {
+}
 
-    /************
+/************
 3. 1280px
 ************/
 
-    @media only screen and (max-width: 1280px) {}
+@media only screen and (max-width: 1280px) {
+}
 
-    /************
+/************
 4. 1199px
 ************/
 
-    @media only screen and (max-width: 1199px) {
-        .products_bar_links ul li:not(:last-of-type) {
-            margin-right: 35px;
-        }
-    }
+@media only screen and (max-width: 1199px) {
+  .products_bar_links ul li:not(:last-of-type) {
+    margin-right: 35px;
+  }
+}
 
-    /************
+/************
 4. 1100px
 ************/
 
-    @media only screen and (max-width: 1100px) {}
+@media only screen and (max-width: 1100px) {
+}
 
-    /************
+/************
 5. 1024px
 ************/
 
-    @media only screen and (max-width: 1024px) {}
+@media only screen and (max-width: 1024px) {
+}
 
-    /************
+/************
 6. 991px
 ************/
 
-    @media only screen and (max-width: 991px) {
+@media only screen and (max-width: 991px) {
+  .products_bar_side {
+    margin-top: 10px;
+  }
+}
 
-
-        .products_bar_side {
-            margin-top: 10px;
-        }
-
-
-    }
-
-    /************
+/************
 7. 959px
 ************/
 
-    @media only screen and (max-width: 959px) {}
+@media only screen and (max-width: 959px) {
+}
 
-    /************
+/************
 8. 880px
 ************/
 
-    @media only screen and (max-width: 880px) {}
+@media only screen and (max-width: 880px) {
+}
 
-    /************
+/************
 9. 768px
 ************/
 
-    @media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+}
 
-    /************
+/************
 10. 767px
 ************/
 
-    @media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+}
 
-    /************
+/************
 11. 575px
 ************/
 
-    @media only screen and (max-width: 575px) {
+@media only screen and (max-width: 575px) {
+  .products_bar_links ul li:not(:last-of-type) {
+    margin-right: 25px;
+  }
 
+  .products_bar_links ul li a {
+    font-size: 14px;
+  }
 
-        .products_bar_links ul li:not(:last-of-type) {
-            margin-right: 25px;
-        }
+  .isotope_filter_text span,
+  .isotope_sorting_text span {
+    font-size: 14px;
+  }
+}
 
-        .products_bar_links ul li a {
-            font-size: 14px;
-        }
-
-        .isotope_filter_text span,
-        .isotope_sorting_text span {
-            font-size: 14px;
-        }
-
-
-    }
-
-    /************
+/************
 11. 539px
 ************/
 
-    @media only screen and (max-width: 539px) {}
+@media only screen and (max-width: 539px) {
+}
 
-    /************
+/************
 12. 480px
 ************/
 
-    @media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+}
 
-    /************
+/************
 13. 479px
 ************/
 
-    @media only screen and (max-width: 479px) {}
+@media only screen and (max-width: 479px) {
+}
 
-    /************
+/************
 14. 400px
 ************/
 
-    @media only screen and (max-width: 400px) {}
+@media only screen and (max-width: 400px) {
+}
 
-
-    /*********************************
+/*********************************
 6. Products
 *********************************/
 
-    .products_bar {
-        width: 100%;
-        height: 167px;
-        background: #FFFFFF;
-        z-index: 1;
-    }
+.products_bar {
+  width: 100%;
+  height: 100px;
+  background: #ffffff;
+  z-index: 1;
+}
 
-    .products_bar_links ul li:not(:last-of-type) {
-        margin-right: 50px;
-    }
+.products_bar_links ul li:not(:last-of-type) {
+  margin-right: 50px;
+}
 
-    .products_bar_links ul li a {
-        font-size: 16px;
-        font-weight: 400;
-        color: #969696;
-    }
+.products_bar_links ul li a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #969696;
+}
 
-    .products_bar_links ul li a:hover,
-    .products_bar_links ul li.active a {
-        color: #2fce98;
-    }
+.products_bar_links ul li a:hover,
+.products_bar_links ul li.active a {
+  color: #2fce98;
+}
 
-    .products_bar_links ul li.active a {
-        font-weight: 500;
-    }
+.products_bar_links ul li.active a {
+  font-weight: 500;
+}
 
-    .products_dropdown {
-        cursor: pointer;
-    }
+.products_dropdown {
+  cursor: pointer;
+}
 
-    .product_dropdown_filter {
-        width: 114px;
-    }
+.product_dropdown_filter {
+  width: 114px;
+}
 
-    .product_dropdown_sorting {
-        margin-right: 59px;
-    }
+.product_dropdown_sorting {
+  margin-right: 59px;
+}
 
-    .isotope_filter_text span,
-    .isotope_sorting_text span {
-        font-size: 16px;
-        font-weight: 400;
-        color: #969696;
-    }
+.isotope_filter_text span,
+.isotope_sorting_text span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #969696;
+}
 
-    .products_dropdown i {
-        margin-left: 9px;
-        font-size: 14px;
-        color: #bcbcbc;
-        -webkit-transition: all 200ms ease;
-        -moz-transition: all 200ms ease;
-        -ms-transition: all 200ms ease;
-        -o-transition: all 200ms ease;
-        transition: all 200ms ease;
-    }
+.products_dropdown i {
+  margin-left: 9px;
+  font-size: 14px;
+  color: #bcbcbc;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
 
-    .products_dropdown:hover i {
-        color: #000000;
-    }
+.products_dropdown:hover i {
+  color: #000000;
+}
 
-    .products_dropdown>ul {
-        position: absolute;
-        top: 100%;
-        right: -15px;
-        visibility: hidden;
-        opacity: 0;
-        width: 100px;
-        text-align: right;
-        background: #f6f8fa;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 13px;
-        padding-bottom: 15px;
-        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
-        -webkit-transition: all 200ms ease;
-        -moz-transition: all 200ms ease;
-        -ms-transition: all 200ms ease;
-        -o-transition: all 200ms ease;
-        transition: all 200ms ease;
-    }
+.products_dropdown > ul {
+  position: absolute;
+  top: 100%;
+  right: -15px;
+  visibility: hidden;
+  opacity: 0;
+  width: 100px;
+  text-align: right;
+  background: #f6f8fa;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 13px;
+  padding-bottom: 15px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
 
-    .products_dropdown ul li:not(:last-child) {
-        margin-bottom: 7px;
-    }
+.products_dropdown ul li:not(:last-child) {
+  margin-bottom: 7px;
+}
 
-    .products_dropdown ul li {
-        font-size: 14px;
-        font-weight: 400;
-        color: #bcbcbc;
-        -webkit-transition: all 200ms ease;
-        -moz-transition: all 200ms ease;
-        -ms-transition: all 200ms ease;
-        -o-transition: all 200ms ease;
-        transition: all 200ms ease;
-    }
+.products_dropdown ul li {
+  font-size: 14px;
+  font-weight: 400;
+  color: #bcbcbc;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
 
-    .products_dropdown ul li:hover {
-        color: #000000;
-    }
+.products_dropdown ul li:hover {
+  color: #000000;
+}
 
-    .products_dropdown:hover>ul {
-        visibility: visible;
-        opacity: 1;
-    }
+.products_dropdown:hover > ul {
+  visibility: visible;
+  opacity: 1;
+}
 
-    .product_view {}
+.product_view {
+}
 
-    .view_item {
-        padding: 5px;
-        cursor: pointer;
-    }
+.view_item {
+  padding: 5px;
+  cursor: pointer;
+}
 
-    .view_item img {
-        opacity: 0.35;
-        -webkit-transition: all 200ms ease;
-        -moz-transition: all 200ms ease;
-        -ms-transition: all 200ms ease;
-        -o-transition: all 200ms ease;
-        transition: all 200ms ease;
-    }
+.view_item img {
+  opacity: 0.35;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
 
-    .view_item:not(:last-child) {
-        margin-right: 14px;
-    }
+.view_item:not(:last-child) {
+  margin-right: 14px;
+}
 
-    .view_item:hover img,
-    .view_item.active img {
-        opacity: 1;
-    }
+.view_item:hover img,
+.view_item.active img {
+  opacity: 1;
+}
 
-    .products {
-        background: #FFFFFF;
-        padding-bottom: 82px;
-    }
+.products {
+  background: #ffffff;
+  padding-bottom: 82px;
+}
